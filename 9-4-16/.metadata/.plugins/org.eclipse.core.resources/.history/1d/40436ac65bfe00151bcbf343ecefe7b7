@@ -1,0 +1,13 @@
+<web-app>
+<servlet>
+  <servlet-name>AjaxAction</servlet-name>
+  <servlet-class>com.action.JsonServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>AjaxAction</servlet-name>
+  <url-pattern>/ajaxAction</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
+</web-app>

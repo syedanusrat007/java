@@ -1,0 +1,17 @@
+package com.invertory.purchase;
+
+public class Man {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           System.out.println("First Program");
+           int a=10,b=20,c,d;
+           c=a+b;
+           d=a-b;
+           System.out.println(c,d);
+	}
+
+}

@@ -1,0 +1,14 @@
+package inheritance;
+
+public class circle {
+   public class circle implements Drawable {
+	   void open()
+	   {
+
+			System.out.println("circle open");
+			
+	   }
+	   void draw();
+	   void close ();
+   }
+}

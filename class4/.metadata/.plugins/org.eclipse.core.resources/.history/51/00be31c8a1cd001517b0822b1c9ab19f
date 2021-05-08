@@ -1,0 +1,30 @@
+package com.nusrat.tonni;
+
+import java.util.Scanner;
+
+public class Sum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input=new Scanner(System.in);
+		int n;
+		int x[]=new int[5];
+		int i,sum=0;
+		n=input.nextInt();
+		for(i=0;i<x.length;i++)
+		{
+			x[i]=input.nextInt();
+			
+			
+		}
+		for(i=0;i<x.length;i++)
+		{
+			sum=sum+x[i];
+			
+			
+		}
+		System.out.println(sum);
+
+	}
+
+}

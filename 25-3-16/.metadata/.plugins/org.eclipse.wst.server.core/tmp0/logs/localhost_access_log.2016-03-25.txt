@@ -1,0 +1,12 @@
+127.0.0.1 - - [25/Mar/2016:20:03:23 +0600] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [25/Mar/2016:20:09:08 +0600] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [25/Mar/2016:20:09:09 +0600] "GET /WebApplication/ HTTP/1.1" 200 670
+0:0:0:0:0:0:0:1 - - [25/Mar/2016:20:09:21 +0600] "POST /WebApplication/Registration HTTP/1.1" 200 -
+127.0.0.1 - - [25/Mar/2016:20:11:01 +0600] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [25/Mar/2016:20:11:02 +0600] "GET /WebApplication/ HTTP/1.1" 200 670
+0:0:0:0:0:0:0:1 - - [25/Mar/2016:20:11:14 +0600] "POST /WebApplication/Registration HTTP/1.1" 200 -
+127.0.0.1 - - [25/Mar/2016:20:12:05 +0600] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [25/Mar/2016:20:12:06 +0600] "GET /WebApplication/ HTTP/1.1" 200 670
+0:0:0:0:0:0:0:1 - - [25/Mar/2016:20:12:12 +0600] "POST /WebApplication/Registration HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [25/Mar/2016:20:16:03 +0600] "GET /WebApplication/ HTTP/1.1" 200 670
+0:0:0:0:0:0:0:1 - - [25/Mar/2016:20:16:15 +0600] "POST /WebApplication/Registration HTTP/1.1" 200 -

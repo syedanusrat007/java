@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+D:\java\UVA\uva\.metadata\.plugins\org.eclipse.jdt.core
+2455210843.index

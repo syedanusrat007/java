@@ -1,0 +1,11 @@
+package com.model;
+
+public class Student {
+	
+	private int studentId;
+	private String name;
+	private String department;
+	private String emailId;
+
+
+}

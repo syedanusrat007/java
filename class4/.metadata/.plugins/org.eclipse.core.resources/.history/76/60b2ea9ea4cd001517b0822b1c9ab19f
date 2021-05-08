@@ -1,0 +1,34 @@
+package com.nusrat.tonni;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Sum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input=new Scanner(System.in);
+		int n;
+		n=input.nextInt();
+		int x[]=new int[n];
+		int i,sum=0,max=0;
+		
+		for(i=0;i<x.length;i++)
+		{
+			x[i]=input.nextInt();
+			sum+=x[i];
+			
+			
+		}
+		
+		System.out.println(sum);
+		Arrays.sort(x);
+		for(i=0;i<x.length;i++)
+		{
+		
+			System.out.println(x[i]);
+			
+
+	}
+
+}

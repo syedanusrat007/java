@@ -1,0 +1,33 @@
+package com.dao;
+
+import java.util.List;
+
+import com.model.Student;
+
+public class StudentDAOImptn implements studentDAO {
+
+	
+	public List<Student> getALLStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	public void savestudent(Student obj) {
+		// TODO Auto-generated method stub
+
+	}
+
+	
+	public void deleteStudent(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	
+	public void updateStudent(Student obj) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

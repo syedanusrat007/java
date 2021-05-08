@@ -1,0 +1,16 @@
+package com.inventory.work;
+
+import java.util.Scanner;
+
+public class me {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input =new 
+		int a,b,c;
+		c=a+b;
+		System.out.println(c);
+
+	}
+
+}

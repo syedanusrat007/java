@@ -1,0 +1,27 @@
+package com.array.mult;
+
+import java.util.Scanner;
+
+public class Mult {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Scanner input=new Scanner(System.in);
+       int n,m,i,j,k;
+     int a[][]= new int [n][m];
+     int b[][]= new int [n][m];
+     int c[][]= new int [n][m];
+     n=input.nextInt();
+     m=input.nextInt();
+     for(i=0;i<x.length();i++)
+     {
+    	 for(j=0;j<x[i].length;j++){
+    		 
+    	 
+    	 x[i][j]= input.nextInt();
+    	 }
+     }
+    		   
+	}
+
+}

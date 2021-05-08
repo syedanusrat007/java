@@ -1,0 +1,7 @@
+package inheritance;
+
+public class circle {
+   public class circle implements Drawable {
+	 
+   }
+}

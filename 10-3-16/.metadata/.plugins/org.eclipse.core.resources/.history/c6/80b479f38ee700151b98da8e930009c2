@@ -1,0 +1,8 @@
+package inheritance;
+
+public interface drawable {
+   void open();
+   void draw();
+   void close ();
+}
+public class circle implements drawable

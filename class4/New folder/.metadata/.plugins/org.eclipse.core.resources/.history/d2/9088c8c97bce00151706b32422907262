@@ -1,0 +1,36 @@
+package com.uva.money;
+
+import java.util.Scanner;
+
+public class Price {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		Scanner input=new Scanner(System.in);
+		int n,t,i,j,m,max=0,min=0,a,b,c,d,avg=0;
+		t=input.nextInt();
+		
+		for(i=1;i<=t;i++)
+		{
+			for(j=0;j<3;j++)
+			{
+			a=input.nextInt();
+			b=input.nextInt();
+			c=input.nextInt();
+			a>=b && b=<c? b==min:b==max;
+			a<=b && a=<c? a==min:a==max;
+			a>=c && c=<b? c==min:c==max;
+			a=<max && a>=min? a==avg:b=<max && b>=min? b==avg:c==avg;
+		
+				
+			}
+			System.out.println("Case"+" "+i+" : "+avg );
+			max=0;
+			min=0;
+			avg=0;
+			
+		}
+	}
+
+}

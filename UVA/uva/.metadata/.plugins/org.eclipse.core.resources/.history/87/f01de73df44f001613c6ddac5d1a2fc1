@@ -1,0 +1,28 @@
+package uva10812;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n,s,d,i;
+		Scanner input = new Scanner(System.in);
+		n=input.nextInt();
+		fo(i=0;i<n;i++)
+		{
+			s=input.nextInt();
+			d=input.nextInt();
+			if(s>=d)
+			{System.out.println((s+d)/2 + " "+(s-d)/2);
+			
+				
+			}
+			else
+				System.out.println("impossible");
+		}
+		
+
+	}
+
+}
